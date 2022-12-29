@@ -1,0 +1,33 @@
+
+#mainNav{
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color:#424545f4;
+  /* transition: all .35s; */
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+  padding: 10px;
+}
+
+#ulHorizontal li{
+  display: inline;
+  padding: 10px; 
+  font-size: 15px; 
+  font-weight: 600; 
+  color: rgb(47, 54, 54);
+ }
+ 
+.headText{
+  font-size: 50px;
+  font-weight:900;
+  -webkit-text-stroke:2px black;
+  padding-left: 20px;
+  color: rgb(47, 54, 54);
+}
+
