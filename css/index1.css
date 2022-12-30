@@ -33,5 +33,20 @@ ul{
   -webkit-text-stroke:2px black;
   padding-left: 20px;
   color: whitesmoke;
+  text-shadow: 2px 2px red;
 }
 
+.headText:hover{
+  color: black;
+  -webkit-text-stroke:2px whitesmoke;
+   
+}
+
+ul a{
+  color: white;
+  text-decoration:none;
+}
+
+ul a:hover{
+  color: coral;
+}
