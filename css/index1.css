@@ -22,7 +22,7 @@ ul{
 #ulHorizontal li{
   display: inline;
   padding: 10px; 
-  font-size: 15px; 
+  font-size: 14px; 
   font-weight: 600; 
   color: white;
  }
@@ -33,7 +33,7 @@ ul{
   -webkit-text-stroke:2px black;
   padding-left: 20px;
   color: whitesmoke;
-  text-shadow: 2px 2px red;
+  text-shadow: 2px 2px rgb(119, 5, 5);
 }
 
 .headText:hover{
@@ -44,9 +44,11 @@ ul{
 
 ul a{
   color: white;
-  text-decoration:none;
 }
 
 ul a:hover{
-  color: coral;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px #000000;
+  text-decoration: transparent;
+
 }
