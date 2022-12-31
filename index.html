@@ -13,7 +13,7 @@
     <!-- This stylesheet is an example of how you can add your own stylesheet to customize bootstrap components. 
       Notice how it is loaded 2nd to the required bootstrap stylesheet. 
       This is so our stylesheet will overwrite bootstrap classes when we apply the same class but different styles to the stylsheet -->
-    <link rel="stylesheet" href="css/index1.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Bootstrap-Portfolio</title>
   </head>
@@ -27,7 +27,7 @@
   <div class="container txtColor">
     <h1 class="headText">PORTFOLIO</h1>
   </div>
-  <div>
+  <div class="ulNavbar">
     <ul id="ulHorizontal">
       <li><a href="#">ABOUT ME </a></li>
       <li><a href="#">WORK </a></li>
@@ -47,71 +47,127 @@
     </div>
   </section>
 
+  <!-- About Me -->
+  <section class="page-section" id="about">
+    <div class="container-fluid">
+    <div class="round-border">
+    <h2>About Me</h2>
+    <p id="about-para">
+      What is Lorem Ipsum?
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      What is Lorem Ipsum?
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    </div>
+    </div>
+  </section>
 
-
-
-
-
-  <!-- <main class="page-wrapper"> 
-    about me -->
-    <!-- <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <div class="verticalLine"></div>
-      <p>
-        What is Lorem Ipsum?
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      </p>
-    </section> -->
-
-    <!-- portfolio container -->
-    <!-- <section class="page-section" id="work">
-    <h2>Works</h2>
-    <div class="verticalLine"></div>
-
-      <div id="work1" >
-        <div class="workTitle">
-          <a href="https://github.com/ambika-ks/prework-study-guide"><strong> prework-study-guide</strong> </a>
+  <!-- Work Section -->
+  <!-- card Section -->
+  <div class="container-fluid page-section works">
+    <h2>My Works</h2>
+    <div class="row">
+      
+      <!-- Card 1 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img src="images/Biopic.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">prework-study-guide</h5>
+            <p class="card-text">The<i> prework-study-guide </i>will provide you with the preliminary skills and information that you needed to begin the coding Bootcamp.</p>
+            <a href="#" class="btn btn-primary">View Work</a>
+          </div>
         </div>
       </div>
 
-      <div id="work2">
-        <div class="workTitle">
-          <a href="https://github.com/ambika-ks/Code-Refactor"><strong> Code-Refactor</strong> </a>
+      <!-- Card 2 -->
+      <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img src="images/Biopic.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Code-Refactor</h5>
+            <p class="card-text">Web accessibility is an increasingly important consideration for businesses.This work will give you an idea about how to refactor an existing site to make it more accessible.</p>
+            <a href="https://ambika-ks.github.io/Console-Finances/" class="btn btn-primary">View Work</a>
+          </div>
+        </div>
+      </div>   
+      
+     <!-- Card 3 -->
+     <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+      <div class="card" style="width: 18rem;">
+        <img src="images/Biopic.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Console-Finances</h5>
+          <p class="card-text">This work is an illustration of creating code for analyzing the financial records of a company.</p>
+          <a href="#" class="btn btn-primary">View Work</a>
         </div>
       </div>
+    </div>  
 
-      <div id="work3" >
-        <div class="workTitle">
-          <a href="https://github.com/ambika-ks/Console-Finances"><strong> Console-Finances </strong></a> 
-        </div>
+   <!-- Card 4 -->
+   <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+    <div class="card" style="width: 18rem;">
+      <img src="images/Biopic.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Add New Work</h5>
+        <p class="card-text">Here, is a place to add New Works.</p>
+        <a href="#" class="btn btn-primary">View Work</a>
       </div>
+    </div>
+  </div>  
 
-      <div id="work4" >
-        <div class="workTitle">
-          <a href="https://github.com/ambika-ks/MyWorks"><strong> MyWorks</strong></a>
-        </div>
-      </div>
+    </div>
+  </div>
 
-      <div id="work5" >
-        <div class="workTitle">
-          <a href="https://github.com/new"><strong> Add New Work</strong></a>
-        </div>
-      </div>
-    </section> -->
 
-    <!-- contact -->
-    <!-- <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-      <ul id="ulHorizontal">
-        <li><strong>Email    :</strong><a href="https://www.google.com">philomath.abcd@gmail.com</a>  </li>
-        <li><strong>GitHub   :</strong><a href="https://github.com/ambika-ks"> https://github.com/ambika-ks</a> </li>
-        <li><strong>Portfolio:</strong><a href="https://www.google.com"> Philo the Philomath</a></li>
+ <!-- Expected Skill Section after Bootcamp -->
+<section class="page-section">
+    <div class="container-fluid">
+    <div class="round-border">
+    <h2>Skills</h2>
+    <p id="about-para">
+      By the time of BootCamp graduation, we will be able to,
+      <ul> 
+        <li>Apply fundamental knowledge of web development with HTML, CSS, and JavaScript.</li>
+        <li>Create visually-compelling page layouts using UX design principles.</li>
+        <li>Maintain code versioning and work across distributed teams using Git and GitHub.</li>
+        <li>Manipulate page information and create interactivity using jQuery and React.</li>
+        <li>Retrieve data from servers using RESTful-compliant network requests.</li>
+        <li>Organise code, having mastered foundations of object-oriented and functional programming paradigms.</li>
+        <li>Build modern web applications with industry-standard frameworks like Node.js and React.</li>
+        <li>Deploy web-based applications using Netlify.</li>
+        <li>Prepare a portfolio of front-end development work.</li>
       </ul>
+    </p>
+    </div>
+    </div>
+  </section>
 
 
-    </section> -->
-  <!-- </main> -->
+<!-- Contact Section -->
+<section class="page-section contact" id="contact">
+  <h2>Contact Me</h2>
+  <div class="social">
+    <a href="https://www.google.com"><i class="fab fa-twitter"></i> Twitter</a>
+    <a href="https://github.com/ambika-ks"> <i class="fab fa-github"></i>GitHub</a>
+    <a href="https://www.google.com"><i class="fab fa-github"></i> Github</a>
+  </div>
+</section>     
 
+
+
+<!-- Footer Section -->
+<footer>
+  <div class="container">
+    <p> @Copyright [ambika-ks]</p>
+  </div>
+</footer>
 
 
 

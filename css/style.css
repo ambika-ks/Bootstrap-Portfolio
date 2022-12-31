@@ -13,7 +13,7 @@
   border-bottom: 3px black;
 }
 
-ul{
+.ulNavbar ul{
   list-style: none;
   padding: 10px;
 }
@@ -62,6 +62,70 @@ ul a:hover{
 .hero-banner{
   color: aqua;
   background-image: url("../images/hero-bg.jpg");
-  text-shadow: 1px 1px 4px #eae7e7;
+  text-shadow: 1px 1px 4px #8d0606;
   border-bottom:5px solid rgba(27, 45, 48, 0.633);
+}
+
+/* About Me */
+/* .page-section h2{ */
+  h2{
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  padding-left: 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page-section{
+  padding-top: 10px;
+  background-image: url("../images/hero-bg.jpg");
+
+}
+
+#about-para{
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.round-border{
+  border-radius: 25px;
+  border: 2px solid #0a0a0a; 
+  padding: 10px;
+  background-color: white;
+
+}
+
+/* works */
+.works h2{
+  color: white;
+  text-shadow: 2px 2px 4px #8d0606;
+  text-decoration: transparent;
+  margin-top: 50px;
+}
+
+.card-title{
+  font-weight: bold;
+  color: grey;
+}
+/* 
+.card-text{
+  text-align: justify;
+} */
+
+.btn{
+  color:white;
+  background-color:#160367;
+}
+
+.fab{
+  padding-left:  30px;
+  color: aliceblue;
+  font-size: 40px;
+ 
+}
+.social{
+  padding: 50px;
+  text-align: center;
 }
