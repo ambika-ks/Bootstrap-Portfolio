@@ -1,8 +1,7 @@
-
+/* Navbar */
 #mainNav{
   border-color: rgba(34, 34, 34, 0.05);
   background-color:#495c5cf4;
-  /* transition: all .35s; */
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -50,5 +49,19 @@ ul a:hover{
   color: whitesmoke;
   text-shadow: 2px 2px 4px #000000;
   text-decoration: transparent;
+}
 
+/* Hero Section */
+#bio-image{
+  padding: 10px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.hero-banner{
+  color: aqua;
+  background-image: url("../images/hero-bg.jpg");
+  text-shadow: 1px 1px 4px #eae7e7;
+  border-bottom:5px solid rgba(27, 45, 48, 0.633);
 }
