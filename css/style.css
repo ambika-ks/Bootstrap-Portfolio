@@ -127,6 +127,7 @@ ul a:hover{
 .cardContainer:hover{
   /* transform: translateY(-20px); */
   transform: translate(-20px, -30px) scale(1.2);
+
 }
 
 .card-text{
@@ -135,6 +136,9 @@ ul a:hover{
 
 .card-img-top{
   border-radius: 15px;
+  padding: 2px;
+  height: 250px;
+  width: 250px;
 }
 
 .btn{
