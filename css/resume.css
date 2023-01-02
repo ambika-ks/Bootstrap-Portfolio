@@ -12,10 +12,6 @@ ul{
     list-style: none;
   }
   
-  #ulHorizontal li{
-   display: inline;
-
-  }
   
   header{
     background-color: rgb(54, 51, 68);

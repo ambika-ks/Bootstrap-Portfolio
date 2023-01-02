@@ -99,6 +99,7 @@ ul a:hover{
 
 }
 
+
 /* works */
 .works h2{
   color: white;
@@ -107,14 +108,34 @@ ul a:hover{
   margin-top: 50px;
 }
 
+.card{
+  width: 25rem;
+  height: 50rem;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
 .card-title{
   font-weight: bold;
   color: grey;
 }
-/* 
+
+.cardContainer {
+  margin-bottom: 15px;
+}
+
+.cardContainer:hover{
+  /* transform: translateY(-20px); */
+  transform: translate(-20px, -30px) scale(1.2);
+}
+
 .card-text{
-  text-align: justify;
-} */
+ height: 140px;
+}
+
+.card-img-top{
+  border-radius: 15px;
+}
 
 .btn{
   color:white;
@@ -122,36 +143,17 @@ ul a:hover{
 }
 
 
-/* Contact me */
-
-
-
-
-/* Footer */
-
-/* .footer-section{
-  background-color:#495c5cf4 ;
-  padding: 10px;
-} */
-/* 
-.foot{
-  height: 50px;
-  border-top: 10px solid #8d0606;
-  border-bottom: 10px solid #8d0606;
-  background-color:#495c5cf4 ;
+.btn:hover{
+  box-shadow: 3px 9px #888888;
 }
-
-#cs-text{
- text-align: left;
-} */
-
 
 /* Contact Me */
 .contact-section{
   background-color: rgba(179, 178, 178, 0.382);
   border-radius: 25px;
   margin: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-bottom: 10px  solid #2d2d2da5;
 }
 .list-align{
@@ -181,3 +183,17 @@ ul a:hover{
   font-size: 40px;
  
 }
+
+
+
+/* Footer */
+
+/* .footer-section{
+  background-color:#495c5cf4 ;
+  padding: 10px;
+} */
+
+/* .foot{
+  background-color:#495c5cf4 ;
+} */
+
