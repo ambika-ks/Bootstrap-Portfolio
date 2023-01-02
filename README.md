@@ -94,4 +94,4 @@ Easy to use: Anybody with just basic knowledge of HTML and CSS can start using B
         ![Final Bootstrap portfolio](images/Screenshot-Bootstrap-Portfolio.png)
 
 8. Feel free to try differently, because scope is 
-   there! 😉💃
+   there! 😉💃.
