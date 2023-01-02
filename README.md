@@ -85,6 +85,9 @@ Easy to use: Anybody with just basic knowledge of HTML and CSS can start using B
 5. Your Bootstrap solution should minimize use of media queries.
 
 6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+ 
+ * The deployed Bootstrap powered Portfolio is available at
+         https://ambika-ks.github.io/Bootstrap-Portfolio/
 
 7. Feel free to try differently, because scope is 
    there! 😉💃
