@@ -51,9 +51,6 @@ ul a:hover{
   text-decoration: transparent;
 }
 
-#ulContact li{
-   
-}
 
 /* Hero Section */
 #bio-image{
@@ -127,12 +124,7 @@ ul a:hover{
 
 /* Contact me */
 
-/* .fab{
-  padding-left:  30px;
-  color: aliceblue;
-  font-size: 40px;
- 
-} */
+
 
 
 /* Footer */
@@ -159,6 +151,7 @@ ul a:hover{
   background-color: rgba(179, 178, 178, 0.382);
   border-radius: 25px;
   margin: 20px;
+  padding-top: 10px;
   border-bottom: 10px  solid #2d2d2da5;
 }
 .list-align{
@@ -169,4 +162,22 @@ ul a:hover{
   text-shadow: 2px 2px 4px #8d0606;
   text-decoration: transparent;
   text-align:center;
+}
+
+.contact-section ul a{
+  color: #000000;
+  text-shadow: 2px 2px 4px whitesmoke;
+}
+
+.contact-section ul a:hover{
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px black;
+}
+
+.fa{
+  padding-left:30px;
+  padding-right: 5px;
+  color: rgb(5, 4, 4);
+  font-size: 40px;
+ 
 }
