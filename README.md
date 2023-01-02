@@ -86,7 +86,8 @@ Easy to use: Anybody with just basic knowledge of HTML and CSS can start using B
 
 6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
  
- * The deployed Bootstrap powered Portfolio is available at
+      🔷 🔷 🔷 The deployed Bootstrap powered Portfolio is 
+          available at
          https://ambika-ks.github.io/Bootstrap-Portfolio/
 
 7. The Final Bootstrap Portfolio,
