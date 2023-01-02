@@ -89,5 +89,8 @@ Easy to use: Anybody with just basic knowledge of HTML and CSS can start using B
  * The deployed Bootstrap powered Portfolio is available at
          https://ambika-ks.github.io/Bootstrap-Portfolio/
 
-7. Feel free to try differently, because scope is 
+7. The Final Bootstrap Portfolio,
+        ![Final Bootstrap portfolio](images/Screenshot-Bootstrap-Portfolio.png)
+
+8. Feel free to try differently, because scope is 
    there! 😉💃
